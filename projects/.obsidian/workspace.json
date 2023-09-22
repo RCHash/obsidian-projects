@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/Project_1/Project_1 Summary.md",
+                "file": "Templates/New_Project.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/Project_1/Project_1 Summary.md",
+                "file": "Templates/New_Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/Project_1/Project_1 Summary.md",
+                "file": "Templates/New_Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/Project_1/Project_1 Summary.md"
+                "file": "Templates/New_Project.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7eb5126aa798c999",
+  "active": "48eba4b826ed3ede",
   "lastOpenFiles": [
-    "Templates",
     "Portfolio/Project_1/Project_1 Summary.md",
+    "Templates/New_Project.md",
+    "Templates",
     "Portfolio/Project_2/Meetings",
     "Portfolio/Project_2/Issues",
     "Portfolio/Project_2/Files",
