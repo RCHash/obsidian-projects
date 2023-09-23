@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d0e344e474838616",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/New_Issue.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/New_Person.md",
+                "file": "Templates/New_Issue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/New_Person.md",
+                "file": "Templates/New_Issue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/New_Person.md"
+                "file": "Templates/New_Issue.md"
               }
             }
           }
@@ -159,11 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d128b9526de82fa",
+  "active": "7eb5126aa798c999",
   "lastOpenFiles": [
+    "Templates/New_Person.md",
+    "Templates/New_Issue.md",
     "Portfolio/Project_1/Project_1 Summary.md",
     "Portfolio/Project_1/Meetings/Project_1 - Kick Off Meeting - 2020-01-15.md",
-    "Templates/New_Person.md",
     "Templates/New_Project_Summary.md",
     "Resources/HR",
     "Resources",
