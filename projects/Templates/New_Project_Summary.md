@@ -1,13 +1,13 @@
 ---
 type: project
-project_code: Project_1
-name: A Project
+project_code: 
+name: 
 active: yes
-governance: agile
-phase: sprint_1
-coordinator: john_doe
-client: external_client
-sponsor: external_client
+governance: 
+phase: 
+coordinator: 
+client: 
+sponsor: 
 ---
 TAGS:: #Project
 
@@ -47,9 +47,6 @@ TAGS:: #Project
 
 >[!info]- ## 5.2. To-Do:
 >```dataview
->TASK
->FROM !"Templates"
->WHERE contains(project_code,this.project_code)
 >```
 
 >[!info]- ## 5.3. Done:

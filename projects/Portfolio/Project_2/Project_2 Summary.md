@@ -1,13 +1,13 @@
 ---
 type: project
-project_code: P1
-name: Project_1
+project_code: Project_2
+name: Another Project
 active: yes
-governance: 
-phase: 
-coordinator: 
-client: 
-sponsor: 
+governance: waterfall
+phase: conceptual
+coordinator: john_doe
+client: internal_client
+sponsor: internal_sponsor
 ---
 TAGS:: #Project
 
@@ -26,6 +26,9 @@ TAGS:: #Project
 # 3. Meetings:
 >[!info]- ## 3.1. Overview:
 >```dataview
+>TABLE date(date) AS Date, medium AS Medium, minutes AS "Minutes Status"
+>FROM !"Templates"
+>WHERE type="meeting" AND contains(project_code,this.project_code)
 >```
 
 # 4. Issues:

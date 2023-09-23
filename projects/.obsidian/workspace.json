@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/New_Project.md",
+                "file": "Templates/New_Project_Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d128b9526de82fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/New_Person.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/New_Project.md",
+                "file": "Templates/New_Person.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/New_Project.md",
+                "file": "Templates/New_Person.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/New_Project.md"
+                "file": "Templates/New_Person.md"
               }
             }
           }
@@ -146,10 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48eba4b826ed3ede",
+  "active": "5d128b9526de82fa",
   "lastOpenFiles": [
+    "Templates/New_Project_Summary.md",
+    "Templates/New_Person.md",
+    "Resources/HR",
+    "Resources",
+    "Templates/New_Meeting.md",
+    "Portfolio/Project_2/Project_2 Summary.md",
+    "Portfolio/Project_2/Meetings/Project_2 - Kick Off Meeting - 2020-01-20.md",
     "Portfolio/Project_1/Project_1 Summary.md",
-    "Templates/New_Project.md",
+    "Portfolio/Project_1/Meetings/Project_1 - Kick Off Meeting - 2020-01-15.md",
     "Templates",
     "Portfolio/Project_2/Meetings",
     "Portfolio/Project_2/Issues",
@@ -157,8 +177,6 @@
     "Portfolio/Project_1/Meetings",
     "Portfolio/Project_1/Issues",
     "Portfolio/Project_1/Files",
-    "Portfolio/Project_2",
-    "Portfolio/Project_1",
-    "Portfolio"
+    "Portfolio/Project_2"
   ]
 }
