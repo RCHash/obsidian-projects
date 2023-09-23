@@ -34,10 +34,16 @@ TAGS:: #Project
 # 4. Issues:
 >[!info]- ## 4.1. Open:
 >```dataview
+>TABLE severity
+>FROM !"Templates"
+>WHERE status="open" AND contains(project_code,this.project_code)
 >```
 
 >[!info]- ## 4.2. Closed:
 >```dataview
+>TABLE severity
+>FROM !"Templates"
+>WHERE status="closed" AND contains(project_code,this.project_code)
 >```
 
 # 5. Tasks:
