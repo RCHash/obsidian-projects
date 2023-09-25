@@ -10,6 +10,7 @@ severity:
 closure_date: 
 ---
 raised_by:: 
+solver:: 
 
 >[!info]- # 1. Description:
 >description::
@@ -19,4 +20,11 @@ raised_by::
 >TABLE date AS Date
 >FROM !"Templates"
 >WHERE contains(related_issues,this.issue_code) AND type="meeting"
+>```
+
+>[!info]- # 3. Related Pending Tasks:
+>```dataview
+>TASK
+>FROM !"Templates"
+>WHERE contains(related_issues,this.issue_code) AND !completed
 >```
