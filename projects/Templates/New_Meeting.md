@@ -5,7 +5,7 @@ medium:
 date: {{date}}
 minutes: 
 ---
-TAGS:: #Project 
+TAGS:: #Project #Meeting
 attendees:: 
 cc:: 
 
@@ -13,7 +13,7 @@ cc::
 1. pending
 
 # 2. Tasks:
->[!info]-
+>[!info]+
 >Total Tasks: **`=(length(this.file.tasks))`**
 >Done Tasks: **`=(length(filter(this.file.tasks.completed, (t) => t = true)))`**
 >Cancelled Tasks: **`=(length(filter(this.file.tasks.cancelled, (t) => t = true)))`**
