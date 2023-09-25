@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/Project_2/Project_2 Summary.md",
+                "file": "Templates/New_Meeting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio/Project_2/Project_2 Summary.md",
+                "file": "Templates/New_Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio/Project_2/Project_2 Summary.md",
+                "file": "Templates/New_Meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio/Project_2/Project_2 Summary.md"
+                "file": "Templates/New_Meeting.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "48eba4b826ed3ede",
   "lastOpenFiles": [
+    "Templates/New_Issue.md",
+    "Portfolio/Project_2/Project_2 Summary.md",
     "Portfolio/Project_1/Project_1 Summary.md",
     "Templates/New_Project_Summary.md",
-    "Templates/New_Issue.md",
     "Templates/New_Person.md",
     "Portfolio/Project_1/Meetings/Project_1 - Kick Off Meeting - 2020-01-15.md",
     "Resources/HR",
     "Resources",
     "Templates/New_Meeting.md",
-    "Portfolio/Project_2/Project_2 Summary.md",
     "Portfolio/Project_2/Meetings/Project_2 - Kick Off Meeting - 2020-01-20.md",
     "Templates",
     "Portfolio/Project_2/Meetings",

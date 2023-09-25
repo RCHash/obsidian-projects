@@ -1,4 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Dracula Official"
+  "cssTheme": "Dracula Official",
+  "enabledCssSnippets": [
+    "kanban-redesign",
+    "other-custom-checkboxes"
+  ]
 }
