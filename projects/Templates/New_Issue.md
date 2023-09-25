@@ -14,6 +14,8 @@ solver::
 
 >[!info]- # 1. Description:
 >description::
+>
+>related_issues:: 
 
 >[!info]- # 2. Related Meetings:
 >```dataview
