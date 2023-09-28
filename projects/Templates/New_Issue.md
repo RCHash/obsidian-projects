@@ -14,7 +14,7 @@ solver::
 
 >[!info]- # 1. Description:
 >description::
->
+>budget_impact:: 
 >related_issues:: 
 
 >[!info]- # 2. Related Meetings:
