@@ -52,6 +52,7 @@ TAGS:: #Project
 # 5. Tasks:
 >[!info]- ## 5.1. Overview:
 >```dataview
+>TABLE "<progress class='red_blue' max=100 value="+Percentage+"> </progress> " + Percentage + " %" AS Actions, Done, Total
 >```
 
 >[!info]- ## 5.2. TODO:
