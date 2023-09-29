@@ -13,14 +13,17 @@ TAGS:: #Project
 
 # 1. Business Case:
 >[!info]- ## 1.1. Purpose:
->
+>objectives:: 
 
 >[!info]- ## Expected Gains:
->
+>gains::
 
 # 2. Team:
 >[!info]- ## 2.1. Team Members:
 >```dataview
+>TABLE disciplines AS "Discipline"
+>FROM #Resource 
+>WHERE type="human resource" AND contains(projects,this.project_code)
 >```
 
 # 3. Meetings:
@@ -51,8 +54,18 @@ TAGS:: #Project
 >```dataview
 >```
 
->[!info]- ## 5.2. To-Do:
+>[!info]- ## 5.2. TODO:
 >```dataview
+>TASK
+>FROM #Project 
+>WHERE contains(project_code,this.project_code) AND !completed AND contains(status," ")
+>GROUP BY file.link
 >```
 
->[!info]- ## 5.3. Done:
+>[!info]- ## 5.3. DONE:
+>```dataview
+>TASK
+>FROM #Project 
+>WHERE contains(project_code,this.project_code) AND completed AND contains(status,"x")
+>GROUP BY file.link
+>```

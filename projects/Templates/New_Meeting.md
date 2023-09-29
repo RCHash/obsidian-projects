@@ -6,6 +6,7 @@ date: {{date}}
 minutes: 
 ---
 TAGS:: #Project #Meeting
+related_issues:: 
 attendees:: 
 cc:: 
 
