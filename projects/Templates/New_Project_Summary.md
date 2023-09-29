@@ -53,6 +53,14 @@ TAGS:: #Project
 >[!info]- ## 5.1. Overview:
 >```dataview
 >TABLE "<progress class='red_blue' max=100 value="+Percentage+"> </progress> " + Percentage + " %" AS Actions, Done, Total
+>FROM #Project 
+>FLATTEN array(file.tasks) AS currTasks
+>FLATTEN length(filter(currTasks, (t) => t.cancelled = true)) AS cancelledTasks
+>FLATTEN length(filter(currTasks, (t) => t.completed = true)) AS Done
+>FLATTEN (length(currTasks)-cancelledTasks) AS Total
+>FLATTEN round(Done / Total * 100) AS Percentage
+>WHERE file.tasks AND contains(project_code,this.project_code)
+>SORT date ASC
 >```
 
 >[!info]- ## 5.2. TODO:
